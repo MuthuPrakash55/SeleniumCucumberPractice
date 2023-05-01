@@ -1,47 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-23T08:25:44 IST" name="Default suite" finished-at="2023-04-23T08:26:00 IST" duration-ms="16300">
+  <suite started-at="2023-04-27T10:51:48 IST" name="Default suite" finished-at="2023-04-27T10:52:10 IST" duration-ms="22478">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:bdd.test.Runner@6c284af]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-04-23T08:25:44 IST" name="Default test" finished-at="2023-04-23T08:26:00 IST" duration-ms="16300">
-      <class name="bdd.test.Runner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:bdd.test.Runner@6c284af]" started-at="2023-04-23T08:25:44 IST" name="setUpClass" finished-at="2023-04-23T08:25:45 IST" duration-ms="664" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@71469e01]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2023-04-27T10:51:48 IST" name="Default test" finished-at="2023-04-27T10:52:10 IST" duration-ms="22478">
+      <class name="testng.test">
+        <test-method is-config="true" signature="before()[pri:0, instance:testng.test@7e057f43]" started-at="2023-04-27T10:51:48 IST" name="before" finished-at="2023-04-27T10:51:48 IST" duration-ms="174" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:bdd.test.Runner@6c284af]" started-at="2023-04-23T08:25:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-04-23T08:25:58 IST" duration-ms="13074" status="PASS">
+        </test-method> <!-- before -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testng.test@7e057f43]" started-at="2023-04-27T10:51:49 IST" name="login" data-provider="loginData" finished-at="2023-04-27T10:51:59 IST" duration-ms="10485" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["verify that user can able to login with invalid userid"]]>
+                <![CDATA[student]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Login feature"]]>
+                <![CDATA[Password123]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:bdd.test.Runner@6c284af]" started-at="2023-04-23T08:25:58 IST" name="tearDownClass" finished-at="2023-04-23T08:26:00 IST" duration-ms="2496" status="PASS">
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testng.test@7e057f43]" started-at="2023-04-27T10:51:59 IST" name="login" data-provider="loginData" finished-at="2023-04-27T10:52:05 IST" duration-ms="5559" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bamajat]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- bdd.test.Runner -->
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testng.test@7e057f43]" started-at="2023-04-27T10:52:05 IST" name="login" data-provider="loginData" finished-at="2023-04-27T10:52:10 IST" duration-ms="5039" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr486474]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bemajat]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testng.test@7e057f43]" started-at="2023-04-27T10:52:10 IST" name="teardown" finished-at="2023-04-27T10:52:10 IST" duration-ms="590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testng.test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

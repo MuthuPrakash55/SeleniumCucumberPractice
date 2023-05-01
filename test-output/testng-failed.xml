@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="bdd.test.Runner">
+      <class name="testng.test">
         <methods>
-          <include name="setUpClass"/>
-          <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="0"/>
+          <include name="login" invocation-numbers="0"/>
+          <include name="teardown"/>
+          <include name="before"/>
         </methods>
-      </class> <!-- bdd.test.Runner -->
+      </class> <!-- testng.test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
