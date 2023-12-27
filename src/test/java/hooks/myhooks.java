@@ -24,7 +24,7 @@ public class myhooks {
 	@After
 	public  void screenshot(Scenario scenario) {		
 		byte[] screenshot=((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
-		scenario.attach(screenshot, "image/png", scenario.getName());;
+		scenario.attach(screenshot, "image/png", scenario.getName());
 		//System.out.println(scenario.getName());		
 	}
 }

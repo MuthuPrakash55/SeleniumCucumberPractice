@@ -5,8 +5,9 @@
     <classes>
       <class name="testng.test">
         <methods>
-          <include name="login" invocation-numbers="0"/>
+          <include name="login" invocation-numbers="0 1 2 3"/>
           <include name="teardown"/>
+          <include name="setup"/>
           <include name="before"/>
         </methods>
       </class> <!-- testng.test -->

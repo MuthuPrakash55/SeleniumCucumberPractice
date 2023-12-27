@@ -15,7 +15,7 @@ import io.cucumber.testng.CucumberOptions.SnippetType;
 							"json:target/cucumber-reports/CucumberTestReport.json",
 							"rerun:target/cucumber-reports/rerun.txt",
 							"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
-							,tags="@invalid")
+							,tags = "@addcustomer")
 public class Runner extends AbstractTestNGCucumberTests {
 			
 }

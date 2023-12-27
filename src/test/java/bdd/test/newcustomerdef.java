@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import factory.Driverfactory;
 import io.cucumber.java.en.*;
 public class newcustomerdef extends Driverfactory{
-	
+
 	@Given("user clicks new customer field")
 	public void userClicksNewCustomerField() throws Exception {
 		//driver= Driverfactory.getdriver();

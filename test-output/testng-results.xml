@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-27T10:51:48 IST" name="Default suite" finished-at="2023-04-27T10:52:10 IST" duration-ms="22478">
+  <suite started-at="2023-12-15T19:22:37 IST" name="Default suite" finished-at="2023-12-15T19:22:59 IST" duration-ms="22671">
     <groups>
     </groups>
-    <test started-at="2023-04-27T10:51:48 IST" name="Default test" finished-at="2023-04-27T10:52:10 IST" duration-ms="22478">
+    <test started-at="2023-12-15T19:22:37 IST" name="Default test" finished-at="2023-12-15T19:22:59 IST" duration-ms="22671">
       <class name="testng.test">
-        <test-method is-config="true" signature="before()[pri:0, instance:testng.test@7e057f43]" started-at="2023-04-27T10:51:48 IST" name="before" finished-at="2023-04-27T10:51:48 IST" duration-ms="174" status="PASS">
+        <test-method is-config="true" signature="before()[pri:0, instance:testng.test@4bdeaabb]" started-at="2023-12-15T19:22:37 IST" name="before" finished-at="2023-12-15T19:22:37 IST" duration-ms="167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testng.test@7e057f43]" started-at="2023-04-27T10:51:49 IST" name="login" data-provider="loginData" finished-at="2023-04-27T10:51:59 IST" duration-ms="10485" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testng.test@4bdeaabb]" started-at="2023-12-15T19:22:37 IST" name="setup" finished-at="2023-12-15T19:22:42 IST" duration-ms="4831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testng.test@4bdeaabb]" started-at="2023-12-15T19:22:42 IST" name="login" data-provider="loginData" finished-at="2023-12-15T19:22:45 IST" duration-ms="2356" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,7 +31,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testng.test@7e057f43]" started-at="2023-04-27T10:51:59 IST" name="login" data-provider="loginData" finished-at="2023-04-27T10:52:05 IST" duration-ms="5559" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testng.test@4bdeaabb]" started-at="2023-12-15T19:22:45 IST" name="teardown" finished-at="2023-12-15T19:22:45 IST" duration-ms="489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testng.test@4bdeaabb]" started-at="2023-12-15T19:22:45 IST" name="setup" finished-at="2023-12-15T19:22:49 IST" duration-ms="4071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testng.test@4bdeaabb]" started-at="2023-12-15T19:22:49 IST" name="login" data-provider="loginData" finished-at="2023-12-15T19:22:50 IST" duration-ms="868" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -43,7 +55,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testng.test@7e057f43]" started-at="2023-04-27T10:52:05 IST" name="login" data-provider="loginData" finished-at="2023-04-27T10:52:10 IST" duration-ms="5039" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testng.test@4bdeaabb]" started-at="2023-12-15T19:22:50 IST" name="teardown" finished-at="2023-12-15T19:22:50 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testng.test@4bdeaabb]" started-at="2023-12-15T19:22:50 IST" name="setup" finished-at="2023-12-15T19:22:54 IST" duration-ms="3879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testng.test@4bdeaabb]" started-at="2023-12-15T19:22:54 IST" name="login" data-provider="loginData" finished-at="2023-12-15T19:22:55 IST" duration-ms="708" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -59,7 +79,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testng.test@7e057f43]" started-at="2023-04-27T10:52:10 IST" name="teardown" finished-at="2023-04-27T10:52:10 IST" duration-ms="590" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testng.test@4bdeaabb]" started-at="2023-12-15T19:22:55 IST" name="teardown" finished-at="2023-12-15T19:22:55 IST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testng.test@4bdeaabb]" started-at="2023-12-15T19:22:55 IST" name="setup" finished-at="2023-12-15T19:22:58 IST" duration-ms="3321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testng.test@4bdeaabb]" started-at="2023-12-15T19:22:58 IST" name="login" data-provider="loginData" finished-at="2023-12-15T19:22:59 IST" duration-ms="717" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr486474]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bemajat]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testng.test@4bdeaabb]" started-at="2023-12-15T19:22:59 IST" name="teardown" finished-at="2023-12-15T19:22:59 IST" duration-ms="162" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
